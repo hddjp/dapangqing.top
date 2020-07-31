@@ -1,0 +1,292 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+header{
+    background-color:#1c1c1c;
+    text-align: center;
+    height: 70px;
+}
+
+nav{
+    margin-top: 30px;
+    float: left;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.navigation{
+    font-weight:bold;
+    font-size: large;
+    margin: 1em;
+    margin-top: 0px;
+    color: white;
+    vertical-align: top;
+    letter-spacing: 0.3em;
+    float: left;
+}
+
+.dropbt{
+    background-color: #1c1c1c;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+    letter-spacing: 0.3em;
+    vertical-align: top;
+}
+
+.dropdown{
+    position: relative;
+    bottom: 5px;
+    float:right;
+    margin-right:10% ;
+}
+
+.dropdown-content{
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    vertical-align: middle; 
+    z-index: 9999;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+}
+
+.dropbt:hover +.dropdown-content{
+    display: block;
+}
+
+.dropdown-content:hover{
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1c1c1c
+}
+
+img.list{
+    position:relative;
+    top:2px
+}
+
+img.manu{
+    position: relative;
+    top:5px;
+    right:5px;
+}
+
+main{
+    background-color: #1c1c1c;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 1000px;
+    margin-bottom: 50px;
+    color: white;
+    padding-bottom: 100px;
+}
+
+h1{
+    margin-left: 370px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    letter-spacing: 0.6em;
+    font-weight: bold;
+}
+
+table.title{
+    margin-left: 160px;
+    font-size: 24px;
+    letter-spacing: 0.6em;
+    border-bottom: #ff9800 5px solid;
+    margin-bottom: 30px;
+}
+table.title td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+td.one{
+    padding-left: 40px;
+    background-color: #333333;
+    color: #777777;
+    cursor: pointer;
+}
+td.two{
+    background-color: #333333;
+    color: #777777;
+    cursor: pointer;
+}
+td.three{
+    padding-right: 40px;
+    background-color: #333333;
+    color: #777777;
+    cursor: pointer;
+}
+
+hr{
+    border: none;
+    height: 2.5px;
+    width: 650px;
+    background-color: #ff9800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+table.user{
+    margin-left: 150px;
+}
+td.username{
+    font-size: 23px;
+    padding-left: 40px;
+    padding-right: 30px;
+    vertical-align: middle;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    border-bottom: #ff9800 3px solid;
+}
+td.email,td.time{
+    font-size: 17px;
+    padding-left: 15px;
+    letter-spacing: 0.2em;
+}
+
+td.email{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+td.time{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: #ff9800 3px solid;
+    padding-right: 40px;
+}
+
+td.choose{
+    background-color: #ff9800;
+    color: #111111;
+}
+
+input.search{
+    height: 30px;
+    margin-left: 200px;
+    width: 400px;
+    background-color: #3a3a3a;
+    border: #777777 2px solid;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    color: #dddddd;
+    outline:none;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 17px;
+    margin-right: 30px;
+}
+input.submit{
+    font-weight: bolder;
+    background-color: #ff9800;
+    color: black;
+    border: #777777 2px solid;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    font-size: 24px;
+    padding-left: 14px;
+    letter-spacing: 0.5em;
+    outline:none;
+    position: relative;
+    top:3px
+}
+
+td.add{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+img.add{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:30px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.nothing{
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div.request{
+    margin-left: 180px;
+}
+p.request{
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+span.request{
+    font-weight: bold;
+}
+button.accept{
+    float: right;
+    width: 75px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    padding-left:9px;
+    padding-right: 0px;
+    outline: none;
+    border: #dddddd solid 2px;
+    color: #000;
+    background-color: #aaaaaa;
+    position: relative;
+    right: 300px;
+    bottom: 25px;
+}
+button.refuse{
+    float: right;
+    float: right;
+    width: 75px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    padding-left:9px;
+    padding-right: 0px;
+    outline: none;
+    border: #777777 solid 2px;
+    color: #ffffff;
+    background-color: #333333;
+    position: relative;
+    right: 140px;
+    bottom: 25px;
+}
